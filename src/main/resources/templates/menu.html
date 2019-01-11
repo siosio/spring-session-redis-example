@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>メニュー</title>
+</head>
+<body>
+ログインユーザ: <span th:text="${#authentication.name}">テストユーザ</span>
+<div th:text="${#authentication.principal.loginUserName}"></div>
+</body>
+</html>
